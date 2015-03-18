@@ -1,0 +1,1 @@
+$(document).ready(function(){$(function(){$(window).scroll(function(){$(".article, .whychoosehero, .serviceshero, .productivity, .easeofmind, .equipmentneed, .rangeofservices, .officehero").each(function(o){var e=$(this).position().top+$(this).outerHeight(),i=$(window).scrollTop()+$(window).height();i+=200,i>e&&$(this).animate({opacity:"1"},200)})})})});
